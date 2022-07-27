@@ -1,0 +1,49 @@
+.cover-image {
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.cover-image::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: .7;
+}
+
+.caption {
+    color: aliceblue;
+    bottom: 182px;
+    top: 182px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.caption h5 {
+    font-size: 65px;
+    font-weight: 600;
+
+}
+
+.caption p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* .card-style {
+    width: 648px;
+    height: 200px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+} */
