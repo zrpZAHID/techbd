@@ -35,15 +35,34 @@
     font-size: 18px;
 }
 
-/* .card-style {
+.card-size {
     width: 648px;
     height: 200px;
-    background: #FFFFFF;
-    border: 1px solid #E8E8E8;
+}
+
+.one-card-size {
+    width: 1320px;
+    height: 806px;
+}
+
+.one-card-size img {
+    width: 600px;
+    height: 806px;
+}
+
+.one-card-text {
+    width: 606px;
+    height: 546px;
+}
+
+.register-section {
+    width: 1320px;
+    height: 300px;
+    background: #289BDE;
     border-radius: 5px;
 }
 
-.card img {
-    width: 200px;
-    height: 200px;
-} */
+.size-card {
+    width: 312px;
+    height: 400px;
+}
