@@ -1,3 +1,4 @@
+/* banner section */
 .cover-image {
     background: no-repeat scroll center scroll;
     -webkit-background-size: cover;
@@ -16,10 +17,11 @@
     opacity: .7;
 }
 
+/* banner text */
 .caption {
     color: aliceblue;
-    bottom: 182px;
-    top: 182px;
+    margin-bottom: 182px;
+    margin-top: 182px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -35,6 +37,7 @@
     font-size: 18px;
 }
 
+/* course section  */
 .card-size {
     width: 648px;
     height: 200px;
@@ -45,6 +48,7 @@
     height: 806px;
 }
 
+/* information section  */
 .one-card-size img {
     width: 600px;
     height: 806px;
@@ -55,6 +59,7 @@
     height: 546px;
 }
 
+/* registrantion section  */
 .register-section {
     width: 1320px;
     height: 300px;
@@ -62,6 +67,7 @@
     border-radius: 5px;
 }
 
+/* successfull student  */
 .size-card {
     width: 312px;
     height: 400px;
@@ -84,11 +90,14 @@
     color: #FFC014;
 }
 
+/* frequently asked question  */
 .accordion-size {
     width: 872px;
     height: 300px;
+    margin-bottom: 0px;
 }
 
+/* final section  */
 .final {
     width: 100%;
     height: 472px;
@@ -99,4 +108,139 @@
 .fa-brands {
     width: 20px;
     height: 20px;
+}
+
+/* media quries  */
+
+
+/* tab media query  */
+
+@media screen and (min-width: 689px) and (max-width: 992px) {
+    .caption {
+        color: aliceblue;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .caption h5 {
+        font-size: 40px;
+        font-weight: 600;
+
+    }
+
+    .caption p {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .one-card-size {
+        width: 694px;
+        height: 543px;
+    }
+
+    .one-card-size img {
+        width: 334px;
+        height: 543px;
+    }
+
+    .one-card-text {
+        width: 320px;
+        height: 453px;
+    }
+
+    .one-card-size .plg {
+        display: none;
+    }
+
+    .one-card-text button {
+        width: 134px;
+        height: 49px;
+    }
+
+    .ready-contain {
+        width: 734px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tab-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .accordion-size {
+        width: 734px;
+        height: 512px;
+    }
+}
+
+/* for small devices  */
+
+@media screen and (max-width: 688px) {
+    .card-size {
+        width: 335px;
+        height: 402px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-size img {
+        width: 100%;
+        width: 335px;
+        height: 224px;
+    }
+
+    .one-card-size {
+        width: 334px;
+        height: 580px;
+    }
+
+    .one-card-size img {
+        width: 334px;
+        height: 224px;
+    }
+
+    .one-card-text {
+        width: 334px;
+        height: 320px;
+        padding: 20px;
+        margin-top: 15px;
+    }
+
+    .one-card-text button {
+        width: 175px;
+        height: 56px;
+    }
+
+    .one-card-text h1 {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .one-card-text p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .ready-contain {
+        width: 335px;
+        height: 223px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tab-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .accordion-size {
+        width: 335px;
+    }
 }
